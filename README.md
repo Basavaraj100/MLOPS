@@ -32,3 +32,20 @@ git remote add origin https://github.com/Basavaraj100/MLOPS.git
 git branch -M main
 
 git push origin main
+
+To run the all stages mentioned in dvc.yaml
+```
+dvc repro
+```
+
+adding stages to the dvc.yaml file
+```
+stages:
+    stage_name(v):
+        cmd:  ...........(command in command line to be run)
+        deps:- .....   (mention dependent packages)
+            - .....
+        outs: 
+            - .....  (mention what is the output from above commands)
+
+```
