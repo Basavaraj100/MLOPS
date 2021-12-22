@@ -73,5 +73,6 @@ pip install -e .
 ```
 
 command for create wheel file of package
-``` python setup.py sdist bdist_wheel
+``` 
+python setup.py sdist bdist_wheel
 ```
