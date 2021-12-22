@@ -22,3 +22,8 @@ estimators:
       alpha: 0.9
       l1_ratio: 0.4
 model_dir: saved_models
+
+
+report:
+  params_path: report/params.json
+  scores_path: report/scores.json
