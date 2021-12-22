@@ -49,3 +49,29 @@ stages:
             - .....  (mention what is the output from above commands)
 
 ```
+
+
+To show the metrics
+```
+dvs mterics show
+```
+
+To know the difference in metrics for present and previous run
+```bash
+dvc metrics diff
+```
+
+
+pytest commands
+```
+pytest -v
+```
+
+setup.py command
+```
+pip install -e .
+```
+
+command for create wheel file of package
+``` python setup.py sdist bdist_wheel
+```
